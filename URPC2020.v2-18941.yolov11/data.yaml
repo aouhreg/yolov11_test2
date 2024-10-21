@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['echinus', 'holothurian', 'scallop', 'starfish']
+
+roboflow:
+  workspace: urpc2020
+  project: urpc2020
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/urpc2020/urpc2020/dataset/2
